@@ -102,3 +102,6 @@ def login(request):
 
 def logout(request):
     return render(request, 'forum/logout.html')
+    
+def home(request):
+    return render(request, 'forum/home.html')
